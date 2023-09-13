@@ -8,11 +8,12 @@ namespace AppJugueteria
 {
     public class Usuario
     {
-        private int id;
-        private string nombre;
-        private string apellido;
-        private string nombreUsuario;
-        private string password;
-        private string mail;
+        private int id { get; set; }
+        private string nombre { get; set; }
+        private string apellido { get; set; }
+        private string nombreUsuario { get; set; }
+        private string password { get; set; }
+        private string mail { get; set; }
+
     }
 }

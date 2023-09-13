@@ -8,11 +8,11 @@ namespace AppJugueteria
 {
     public class Producto
     {
-        private int id;
-        private string descripcion;
-        private float costo;
-        private float precioVenta;
-        private int stock;
-        private int idUsuario;
+        private int id { get; set; }
+        private string descripcion { get; set; }
+        private float costo { get; set; }
+        private float precioVenta { get; set; }
+        private int stock { get; set; }
+        private int idUsuario { get; set; }
     }
 }
