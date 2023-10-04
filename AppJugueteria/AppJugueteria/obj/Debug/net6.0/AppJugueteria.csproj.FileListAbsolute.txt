@@ -1,0 +1,15 @@
+C:\Users\jonyr\source\repos\AppJugueteria\AppJugueteria\AppJugueteria\bin\Debug\net6.0\AppJugueteria.exe
+C:\Users\jonyr\source\repos\AppJugueteria\AppJugueteria\AppJugueteria\bin\Debug\net6.0\AppJugueteria.deps.json
+C:\Users\jonyr\source\repos\AppJugueteria\AppJugueteria\AppJugueteria\bin\Debug\net6.0\AppJugueteria.runtimeconfig.json
+C:\Users\jonyr\source\repos\AppJugueteria\AppJugueteria\AppJugueteria\bin\Debug\net6.0\AppJugueteria.dll
+C:\Users\jonyr\source\repos\AppJugueteria\AppJugueteria\AppJugueteria\bin\Debug\net6.0\AppJugueteria.pdb
+C:\Users\jonyr\source\repos\AppJugueteria\AppJugueteria\AppJugueteria\obj\Debug\net6.0\AppJugueteria.csproj.AssemblyReference.cache
+C:\Users\jonyr\source\repos\AppJugueteria\AppJugueteria\AppJugueteria\obj\Debug\net6.0\AppJugueteria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jonyr\source\repos\AppJugueteria\AppJugueteria\AppJugueteria\obj\Debug\net6.0\AppJugueteria.AssemblyInfoInputs.cache
+C:\Users\jonyr\source\repos\AppJugueteria\AppJugueteria\AppJugueteria\obj\Debug\net6.0\AppJugueteria.AssemblyInfo.cs
+C:\Users\jonyr\source\repos\AppJugueteria\AppJugueteria\AppJugueteria\obj\Debug\net6.0\AppJugueteria.csproj.CoreCompileInputs.cache
+C:\Users\jonyr\source\repos\AppJugueteria\AppJugueteria\AppJugueteria\obj\Debug\net6.0\AppJugueteria.dll
+C:\Users\jonyr\source\repos\AppJugueteria\AppJugueteria\AppJugueteria\obj\Debug\net6.0\refint\AppJugueteria.dll
+C:\Users\jonyr\source\repos\AppJugueteria\AppJugueteria\AppJugueteria\obj\Debug\net6.0\AppJugueteria.pdb
+C:\Users\jonyr\source\repos\AppJugueteria\AppJugueteria\AppJugueteria\obj\Debug\net6.0\AppJugueteria.genruntimeconfig.cache
+C:\Users\jonyr\source\repos\AppJugueteria\AppJugueteria\AppJugueteria\obj\Debug\net6.0\ref\AppJugueteria.dll
