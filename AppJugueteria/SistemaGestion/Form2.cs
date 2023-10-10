@@ -21,7 +21,7 @@ namespace SistemaGestion
         private void Form2_Load(object sender, EventArgs e)
         {
 
-            List<Usuario> lista = new List<Usuario>();
+            List<UsuarioData> lista = new List<UsuarioData>();
 
             string connectionString = @"Server=JONATAN;DataBase=SistemaGestion;
                                         Trusted_Connection=True";
@@ -42,7 +42,7 @@ namespace SistemaGestion
                             {
                                 while (dr.Read())
                                 {
-                                    var usuario = new Usuario();
+                                    var usuario = new UsuarioData();
                                     usuario.Id = Convert.ToInt32(dr["Id"]);
                                     usuario.Nombre = dr["Nombre"].ToString();
                                     usuario.Apellido = dr["Apellido"].ToString();

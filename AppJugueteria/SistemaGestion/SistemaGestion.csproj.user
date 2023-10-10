@@ -13,5 +13,14 @@
     <Compile Update="Form4.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FrmAltaProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmEliminarProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmModificarProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

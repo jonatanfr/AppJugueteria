@@ -20,7 +20,7 @@ namespace SistemaGestion
 
         private void Form4_Load(object sender, EventArgs e)
         {
-            List<Venta> lista = new List<Venta>();
+            List<VentaData> lista = new List<VentaData>();
 
             string connectionString = @"Server=JONATAN;DataBase=SistemaGestion;
                                         Trusted_Connection=True";
@@ -41,7 +41,7 @@ namespace SistemaGestion
                             {
                                 while (dr.Read())
                                 {
-                                    var venta = new Venta();
+                                    var venta = new VentaData();
                                     
                                         venta.Id = Convert.ToInt32(dr["Id"]);
                                         venta.Comentarios = dr["Comentarios"].ToString();

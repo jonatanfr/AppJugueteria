@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SistemaGestion
 {
-    public class Producto
+    public class ProductoData
     {
         public int Id { get; set; }
 

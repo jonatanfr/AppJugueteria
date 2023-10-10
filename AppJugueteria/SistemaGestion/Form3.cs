@@ -21,7 +21,7 @@ namespace SistemaGestion
         private void Form3_Load(object sender, EventArgs e)
         {
 
-            List<ProductoVendido> lista = new List<ProductoVendido>();
+            List<ProductoVendidoData> lista = new List<ProductoVendidoData>();
 
             string connectionString = @"Server=JONATAN;DataBase=SistemaGestion;
                                         Trusted_Connection=True";
@@ -42,7 +42,7 @@ namespace SistemaGestion
                             {
                                 while (dr.Read())
                                 {
-                                    var productoVendido = new ProductoVendido();
+                                    var productoVendido = new ProductoVendidoData();
                                     productoVendido.Id = Convert.ToInt32(dr["Id"]);
                                     productoVendido.Stock = Convert.ToInt32(dr["Stock"]);
                                     productoVendido.IdProducto = Convert.ToInt32(dr["IdProducto"]);

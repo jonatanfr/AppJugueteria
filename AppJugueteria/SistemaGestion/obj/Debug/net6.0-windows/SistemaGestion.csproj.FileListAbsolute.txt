@@ -25,3 +25,6 @@ C:\Users\jonyr\Source\Repos\AppJugueteria\AppJugueteria\SistemaGestion\obj\Debug
 C:\Users\jonyr\Source\Repos\AppJugueteria\AppJugueteria\SistemaGestion\obj\Debug\net6.0-windows\SistemaGestion.Form2.resources
 C:\Users\jonyr\Source\Repos\AppJugueteria\AppJugueteria\SistemaGestion\obj\Debug\net6.0-windows\SistemaGestion.Form3.resources
 C:\Users\jonyr\Source\Repos\AppJugueteria\AppJugueteria\SistemaGestion\obj\Debug\net6.0-windows\SistemaGestion.Form4.resources
+C:\Users\jonyr\Source\Repos\AppJugueteria\AppJugueteria\SistemaGestion\obj\Debug\net6.0-windows\SistemaGestion.FrmAltaProducto.resources
+C:\Users\jonyr\Source\Repos\AppJugueteria\AppJugueteria\SistemaGestion\obj\Debug\net6.0-windows\SistemaGestion.FrmEliminarProducto.resources
+C:\Users\jonyr\Source\Repos\AppJugueteria\AppJugueteria\SistemaGestion\obj\Debug\net6.0-windows\SistemaGestion.FrmModificarProducto.resources
