@@ -109,6 +109,11 @@
             // 
             numStock.Location = new Point(244, 259);
             numStock.Name = "numStock";
+            numStock.Maximum = new decimal(new int[] {
+            999999999,
+            0,
+            0,
+            0});
             numStock.Size = new Size(180, 31);
             numStock.TabIndex = 6;
             // 
