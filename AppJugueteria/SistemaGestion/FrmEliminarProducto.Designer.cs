@@ -113,6 +113,11 @@
             // 
             numCosto.DecimalPlaces = 2;
             numCosto.Location = new Point(265, 119);
+            numCosto.Maximum = new decimal(new int[] {
+            999999999,
+            0,
+            0,
+            0});
             numCosto.Name = "numCosto";
             numCosto.Size = new Size(180, 31);
             numCosto.TabIndex = 7;
@@ -121,6 +126,11 @@
             // 
             numPrecioVenta.DecimalPlaces = 2;
             numPrecioVenta.Location = new Point(265, 196);
+            numPrecioVenta.Maximum = new decimal(new int[] {
+            999999999,
+            0,
+            0,
+            0});
             numPrecioVenta.Name = "numPrecioVenta";
             numPrecioVenta.Size = new Size(180, 31);
             numPrecioVenta.TabIndex = 8;
@@ -128,6 +138,11 @@
             // numStock
             // 
             numStock.Location = new Point(265, 273);
+            numStock.Maximum = new decimal(new int[] {
+            999999999,
+            0,
+            0,
+            0});
             numStock.Name = "numStock";
             numStock.Size = new Size(180, 31);
             numStock.TabIndex = 9;

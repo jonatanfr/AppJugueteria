@@ -118,6 +118,8 @@
             btnEditar.ReadOnly = true;
             btnEditar.Resizable = DataGridViewTriState.True;
             btnEditar.SortMode = DataGridViewColumnSortMode.Automatic;
+            btnEditar.Text = "Editar";
+            btnEditar.UseColumnTextForButtonValue = true;
             btnEditar.Width = 150;
             // 
             // btnEliminar
@@ -128,6 +130,8 @@
             btnEliminar.ReadOnly = true;
             btnEliminar.Resizable = DataGridViewTriState.True;
             btnEliminar.SortMode = DataGridViewColumnSortMode.Automatic;
+            btnEliminar.Text = "Eliminar";
+            btnEliminar.UseColumnTextForButtonValue = true;
             btnEliminar.Width = 150;
             // 
             // Form1

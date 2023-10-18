@@ -105,6 +105,11 @@
             // 
             numCosto.DecimalPlaces = 2;
             numCosto.Location = new Point(279, 116);
+            numCosto.Maximum = new decimal(new int[] {
+            999999999,
+            0,
+            0,
+            0});
             numCosto.Name = "numCosto";
             numCosto.Size = new Size(180, 31);
             numCosto.TabIndex = 9;
@@ -114,6 +119,11 @@
             numVenta.DecimalPlaces = 2;
             numVenta.Location = new Point(279, 187);
             numVenta.Name = "numVenta";
+            numVenta.Maximum = new decimal(new int[] {
+            999999999,
+            0,
+            0,
+            0});
             numVenta.Size = new Size(180, 31);
             numVenta.TabIndex = 10;
             // 
