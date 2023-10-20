@@ -1,0 +1,85 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "C:\\Users\\jonyr\\Source\\Repos\\AppJugueteria\\AppJugueteria\\AppClientesEntities\\AppClientesEntities.csproj"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\jonyr\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\jonyr\\Source\\Repos\\AppJugueteria\\AppJugueteria\\AppClientesData\\AppClientesData.csproj",
+      "projectName": "AppClientesData",
+      "projectPath": "C:\\Users\\jonyr\\Source\\Repos\\AppJugueteria\\AppJugueteria\\AppClientesData\\AppClientesData.csproj",
+      "packagesPath": "C:\\Users\\jonyr\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jonyr\\Source\\Repos\\AppJugueteria\\AppJugueteria\\AppClientesData\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\jonyr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\jonyr\\Source\\Repos\\AppJugueteria\\AppJugueteria\\AppClientesEntities\\AppClientesEntities.csproj": {
+              "projectPath": "C:\\Users\\jonyr\\Source\\Repos\\AppJugueteria\\AppJugueteria\\AppClientesEntities\\AppClientesEntities.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "No se encuentra información del proyecto para \"C:\\Users\\jonyr\\Source\\Repos\\AppJugueteria\\AppJugueteria\\AppClientesEntities\\AppClientesEntities.csproj\". Si está usando Visual Studio, puede deberse a que el proyecto no se haya cargado o no forme parte de la solución actual, por lo que debe ejecutar una restauración desde la línea de comandos. De lo contrario, puede que el archivo del proyecto no sea válido o que falten destinos necesarios para la restauración.",
+      "libraryId": "C:\\Users\\jonyr\\Source\\Repos\\AppJugueteria\\AppJugueteria\\AppClientesEntities\\AppClientesEntities.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

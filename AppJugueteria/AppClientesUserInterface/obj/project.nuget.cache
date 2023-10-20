@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "KHTfaURqImDyFnrIHREuMtT3v9VW3QVsTibzgu0CuO+rZyuhhDQ3BSXSi+kglKCEMGuTV59iw03Dp0bmbCs4WQ==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\jonyr\\Source\\Repos\\AppJugueteria\\AppJugueteria\\AppClientesUserInterface\\AppClientesUserInterface.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "No se encuentra información del proyecto para \"C:\\Users\\jonyr\\Source\\Repos\\AppJugueteria\\AppJugueteria\\AppClientesEntities\\AppClientesEntities.csproj\". Si está usando Visual Studio, puede deberse a que el proyecto no se haya cargado o no forme parte de la solución actual, por lo que debe ejecutar una restauración desde la línea de comandos. De lo contrario, puede que el archivo del proyecto no sea válido o que falten destinos necesarios para la restauración.",
+      "libraryId": "C:\\Users\\jonyr\\Source\\Repos\\AppJugueteria\\AppJugueteria\\AppClientesEntities\\AppClientesEntities.csproj",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}

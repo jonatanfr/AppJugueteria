@@ -1,0 +1,126 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "AppClientesBussiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AppClientesData": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AppClientesBussiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AppClientesBussiness.dll": {}
+        }
+      },
+      "AppClientesData/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "C:\\Users\\jonyr\\Source\\Repos\\AppJugueteria\\AppJugueteria\\AppClientesEntities\\AppClientesEntities.csproj": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AppClientesData.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AppClientesData.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AppClientesBussiness/1.0.0": {
+      "type": "project",
+      "path": "../AppClientesBussiness/AppClientesBussiness.csproj",
+      "msbuildProject": "../AppClientesBussiness/AppClientesBussiness.csproj"
+    },
+    "AppClientesData/1.0.0": {
+      "type": "project",
+      "path": "../AppClientesData/AppClientesData.csproj",
+      "msbuildProject": "../AppClientesData/AppClientesData.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "AppClientesBussiness >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\jonyr\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\jonyr\\Source\\Repos\\AppJugueteria\\AppJugueteria\\AppClientesUserInterface\\AppClientesUserInterface.csproj",
+      "projectName": "AppClientesUserInterface",
+      "projectPath": "C:\\Users\\jonyr\\Source\\Repos\\AppJugueteria\\AppJugueteria\\AppClientesUserInterface\\AppClientesUserInterface.csproj",
+      "packagesPath": "C:\\Users\\jonyr\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jonyr\\Source\\Repos\\AppJugueteria\\AppJugueteria\\AppClientesUserInterface\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\jonyr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "C:\\Users\\jonyr\\Source\\Repos\\AppJugueteria\\AppJugueteria\\AppClientesBussiness\\AppClientesBussiness.csproj": {
+              "projectPath": "C:\\Users\\jonyr\\Source\\Repos\\AppJugueteria\\AppJugueteria\\AppClientesBussiness\\AppClientesBussiness.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "No se encuentra información del proyecto para \"C:\\Users\\jonyr\\Source\\Repos\\AppJugueteria\\AppJugueteria\\AppClientesEntities\\AppClientesEntities.csproj\". Si está usando Visual Studio, puede deberse a que el proyecto no se haya cargado o no forme parte de la solución actual, por lo que debe ejecutar una restauración desde la línea de comandos. De lo contrario, puede que el archivo del proyecto no sea válido o que falten destinos necesarios para la restauración.",
+      "libraryId": "C:\\Users\\jonyr\\Source\\Repos\\AppJugueteria\\AppJugueteria\\AppClientesEntities\\AppClientesEntities.csproj",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}
