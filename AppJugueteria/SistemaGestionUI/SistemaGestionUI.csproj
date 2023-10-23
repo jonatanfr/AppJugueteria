@@ -8,4 +8,37 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SistemaGestionBussiness\SistemaGestionBussiness.csproj" />
+    <ProjectReference Include="..\SistemaGestionEntities\SistemaGestionEntities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmAltaProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmEliminarProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmModificarProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+
 </Project>

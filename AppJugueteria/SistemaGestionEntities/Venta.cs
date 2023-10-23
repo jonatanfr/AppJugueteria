@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SistemaGestion
 {
-    public class VentaData
+    public class Venta
     {
         public int Id { get; set; }
         public string Comentarios { get; set; }

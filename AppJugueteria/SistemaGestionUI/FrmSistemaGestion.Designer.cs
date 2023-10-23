@@ -28,7 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
+            dataGridView1 = new DataGridView();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
+            // 
+            // dataGridView1
+            // 
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(31, 29);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersWidth = 62;
+            dataGridView1.RowTemplate.Height = 33;
+            dataGridView1.Size = new Size(733, 391);
+            dataGridView1.TabIndex = 0;
             // 
             // SistemaGestion
             // 
@@ -36,12 +48,16 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Yellow;
             ClientSize = new Size(800, 450);
+            Controls.Add(dataGridView1);
             Name = "SistemaGestion";
             Text = "Sistema De Gestion";
             Load += SistemaGestion_Load;
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
+
+        private DataGridView dataGridView1;
     }
 }

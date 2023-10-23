@@ -1,3 +1,6 @@
+using SistemaGestionBussiness;
+using SistemaGestionEntities;
+
 namespace SistemaGestionUI
 {
     public partial class SistemaGestion : Form
